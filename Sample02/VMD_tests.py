@@ -13,7 +13,7 @@ original MATLAB code: https://www.mathworks.com/matlabcentral/fileexchange/44765
 # ref: https://github.com/vrcarva/vmdpy
 import numpy as np
 import matplotlib.pyplot as plt
-from vmdpy.vmdpy import VMD
+from Sample02.vmdpy.vmdpy import VMD
 
 # Time Domain 0 to T
 T = 1000

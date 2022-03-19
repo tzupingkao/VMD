@@ -2,6 +2,8 @@ from matplotlib import pyplot as plt
 import numpy as np
 from scipy.signal import hilbert
 
+# Ref: https://zhuanlan.zhihu.com/p/66898788
+
 class VMD:
     def __init__(self, K, alpha, tau, tol=1e-7, maxIters=200, eps=1e-9):
         """
